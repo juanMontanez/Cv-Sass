@@ -1,0 +1,22 @@
+//// @access public
+//// @author @JuanMontanez
+
+/// Mixin para usar de manera recurrente el centrado de los elementos y el ancho máximo que ocuparan.
+/// @parameter {Number} $margin-top - Tamaño del margen superior.
+/// @parameter {Number} $margin-bottom - Tamaño del margen inferior
+/// @parameter {Number} $size - Ancho máximo que ocupara.
+/// @output margin , max-width centrado
+/// @group Mixins
+@mixin centrado($margin-top,$margin-bottom,$size){
+    margin: $margin-top auto $margin-bottom;
+    max-width: $size;
+}
+
+/// Mixin para resetear el margen a 0 de p,h1,h2,h3,h4,h5 y h6.
+/// @output margin reset
+/// @group Mixins
+@mixin reset{
+    p,h1,h2,h3,h4,h5,h6{ 
+    margin: 0;
+    }
+}

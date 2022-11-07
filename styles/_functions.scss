@@ -1,0 +1,18 @@
+//// @access public
+//// @author @JuanMontanez
+
+/// Funcion para escalar una imagen con un bucle hasta un limite.
+/// @group Funciones
+/// @parameter {Number} $number-section - Número de sección
+/// @return {String} $colores-sections - Devuelve el color correspondiente de cada sección
+@function colorSectionTitle($number-section) {
+  @if ($number-section == 1) {
+    @return list.nth($colores-sections,$number-section);
+  } @else if($number-section == 2) {
+    @return list.nth($colores-sections,$number-section);
+  } @else if($number-section == 3) {
+    @return list.nth($colores-sections,$number-section);
+  } @else {
+    @return list.nth($colores-sections,$number-section);
+  }
+}

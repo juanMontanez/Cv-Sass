@@ -1,0 +1,30 @@
+//// @access public
+//// @author @JuanMontanez
+
+/// Variable con los colores que se utilizarán en el titulo de sección de cada categoría
+/// @group Colores
+$colores-sections: rgb(165,65,65),rgb(98,232,120),rgb(177,128,38),rgb(112,94,214);
+
+/// Variable con los colores principales de fondo y texto
+/// @group Colores
+$color_primary: #eee;
+/// Variable con los colores principales de fondo y texto
+/// @group Colores
+$color_secondary: rgb(221, 221, 221);
+/// Variable con los colores principales de fondo y texto
+/// @group Colores
+$color_text: #000;
+
+/// Variable con los colores oscuros de fondo y texto
+/// @group Colores
+$color_primary-dark: rgb(34,34,34);
+/// Variable con los colores oscuros de fondo y texto
+/// @group colores
+$color_secondary-dark: #515052;
+/// Variable con los colores oscuros de fondo y texto
+/// @group Colores
+$color_text-dark: #FFFFFA;
+
+///Variable con el numero de titulos sección que tiene la página
+/// @group secciones
+$number-section: 1, 2, 3, 4;
